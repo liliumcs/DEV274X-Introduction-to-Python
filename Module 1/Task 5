@@ -1,0 +1,4 @@
+#Task 2
+# [ ] print the first half of the long_word
+long_word = "Consequences"
+print(long_word[:6])
