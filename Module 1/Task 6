@@ -1,0 +1,9 @@
+#Task 3
+# [ ] print the second half of the long_word
+long_word = "Consequences"
+print(long_word[6:])
+
+# [ ] print a message that there is "No Parking" on index 0 or index 4 streets
+street_names="Milwaukee"
+
+print("There is No Parking on", street_names[0], "or", street_names[4])
