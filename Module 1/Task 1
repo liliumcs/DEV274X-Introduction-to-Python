@@ -1,0 +1,24 @@
+#Task 1 Work with individual string characters
+# [ ] assign a string 5 or more letters long to the variable: street_name
+# [ ] print the 1st, 3rd and 5th characters
+
+street_name="Simons"
+print(street_name[0])
+print(street_name[2])
+print(street_name[4])
+
+
+# [ ] Create an input variable: team_name - ask that second letter = "i", "o", or "u"
+# [ ] Test if team_name 2nd character = "i", "o", or "u" and print a message
+# note: use if, elif and else
+
+team_name="liliumcs"
+if team_name[1].lower()=="i":
+    print("second character is i")
+elif team_name[1].lower()=="o":
+    print("second character is o")
+elif team_name[1].lower()=="u":
+    print("second character is u")
+else:
+    print("not match")
+
