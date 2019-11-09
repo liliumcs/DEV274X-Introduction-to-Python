@@ -1,0 +1,42 @@
+# [ ] Get user input for first_name
+# [ ] iterate through letters in first_name 
+#    - print each letter on a new line
+
+first_name=input("please enter your name:")
+
+for letter in first_name:
+    print(letter)
+
+
+
+
+# [ ] Create capitalize-io
+first_name=input("please input your name:")
+new_name=""
+for letter in first_name:
+    if letter.lower()=="i" or letter.lower()=="o":
+        new_name+=letter.upper()
+    else:
+        new_name+=letter
+        
+print("new name is:",new_name)
+
+
+
+
+# [ ] create & print a variable, other_word, made of every other letter in long_word
+long_word = "juxtaposition"
+for other_word in long_word[::2]:
+    print(other_word)
+
+
+
+# Mirror Color
+# [ ] get user input, fav_color
+# [ ] print fav_color backwards + fav_color
+# example: "Red" prints "deRRed"
+
+fav_color=input("please enter your fav color:")
+new_color=fav_color[::-1]
+
+print(new_color+fav_color)
