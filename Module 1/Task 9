@@ -1,0 +1,61 @@
+# [ ] use len() to find the midpoint of the string 
+# [ ] print the halves on separate lines
+random_tip = "wear a hat when it rains"
+mid_point=int(len(random_tip)/2)
+print(random_tip[:mid_point]+"\n"+random_tip[mid_point:])
+
+
+
+
+# for letters: "e" and "a" in random_tip
+# [ ] print letter counts 
+# [ ] BONUS: print which letter is most frequent
+random_tip = "wear a hat when it rains"
+times_e=random_tip.count("e")
+times_a=random_tip.count("a")
+
+if times_e==times_a:
+    print("same frenquence")
+elif times_e>times_a:
+    print("e is more frequent")
+else:
+    print("a is more frequent")
+
+
+
+
+# [ ] print long_word from the location of the first and second "t"
+long_word = "juxtaposition"
+first_t=long_word.find("t")
+second_t=long_word.find("t",(first_t+1))
+print(long_word[first_t:])
+print(long_word[second_t:])
+
+
+
+
+ 
+Task 4
+Program: print each word in a quote
+start = 0
+space_index = quote.find(" ")
+while space_index != -1:
+    # code to print word (index slice start:space_index)
+Output should look like below: 
+they
+stumble
+who
+run
+fast
+
+
+
+# [ ] Print each word in the quote on a new line  
+quote = "they stumble who run fast"
+start=0
+space_index=quote.find(" ")
+while space_index!=-1:
+    print(quote[start:space_index])
+    start=space_index+1
+    space_index=quote.find(" ",space_index+1)
+print(quote[start:])
